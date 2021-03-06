@@ -2,6 +2,11 @@
 
 This is a sample application for the verification laboratory.
 
+__This is a bold text for the 2.2 task__
+*This is an italic text for the same purpose*
+As requested by the task...
+>I also use a third type of formatting
+
 ## Getting started
 
 * The application is implemented in Java.
