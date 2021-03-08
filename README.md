@@ -1,6 +1,6 @@
 # Train Speed Controller
 
-This is a sample application for the verification laboratory. branch-A
+This is a sample application for the verification laboratory. branch-A-B
 
 __This is a bold text for the 2.2 task__
 *This is an italic text for the same purpose*
