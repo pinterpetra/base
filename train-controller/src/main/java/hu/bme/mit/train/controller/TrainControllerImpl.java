@@ -13,11 +13,12 @@ public class TrainControllerImpl implements TrainController {
 	private Timer t = new Timer(true);
 
 	public void getstarted(){
-		t.scheduleAtFixedRate(new TimerTask() {
+		TimerTask tt= new TimerTask() {
 			@Override
 			public void run() {
 				followSpeed(); }
-			}, 500, 500);
+		};
+		t.scheduleAtFixedRate(tt, 500, 500);
 	}
 
 	@Override
