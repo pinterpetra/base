@@ -10,7 +10,7 @@ import static org.mockito.Mockito.*;
 
 public class TrainSensorTest {
 
-    //TrainSensor sensor;
+    TrainSensor sensor;
     TrainSensorImpl tsensori;
     TrainController tcontroller;
     TrainUser tuser;
@@ -18,16 +18,16 @@ public class TrainSensorTest {
 
     @Before
     public void before() {
-        //sensor = new TrainSensorImpl(null, null);
+        sensor = new TrainSensorImpl(null, null);
         tuser = mock(TrainUser.class);
         tcontroller = mock(TrainController.class);
         tsensori = new TrainSensorImpl(tcontroller, tuser);
     }
 
-    /*@Test
-    public void ThisIsAnExampleTestStub() {
+    @Test
+    public void Test5_for_getSpeedLimit(){
         Assert.assertEquals(sensor.getSpeedLimit(), 5);
-    }*/
+    }
 
     @Test
     public void Test1_speedlimit_more_than_500(){
