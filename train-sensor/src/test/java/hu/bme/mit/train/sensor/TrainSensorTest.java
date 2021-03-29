@@ -26,7 +26,7 @@ public class TrainSensorTest {
 
     @Test
     public void Test5_for_getSpeedLimit(){
-        Assert.assertEquals(sensor.getSpeedLimit(), 5);
+        Assert.assertEquals(5, sensor.getSpeedLimit());
     }
 
     @Test
